@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tinglee - Dating App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="bg-white border-b border-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center gap-2">
+            <div class="w-2 h-2 bg-black"></div>
+            <span class="text-lg font-medium">Tinglee❤️</span>
+          </div>
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="#" text-sm">Home</a>
+            <a href="#" text-sm">About</a>
+            <a href="#" text-sm">Features</a>
+            <a href="#"text-sm">Pricing</a>
+          </nav>
+
+        <!--<nav class="hidden md:flex items-center gap-8">
+            <a href="#" class="text-gray-700 hover:text-gray-900 text-sm">Home</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900 text-sm">About</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900 text-sm">Features</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900 text-sm">Pricing</a>
+          </nav>-->
+
+          <div class="hidden md:flex items-center gap-4">
+            <button class="px-6 py-2 text-sm font-medium text-white bg-pink-500 rounded-full hover:bg-pink-600 transition-colors">Sign Up</button>
+            <button class="text-sm font-medium text-gray-700 hover:text-gray-900">Log In</button>
+          </div>
+
+          <button class="md:hidden" id="mobileMenuBtn">
+            <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        <div class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 h-96 md:h-screen flex items-center justify-center" style="background-image: url('https://images.pexels.com/photos/1181715/pexels-photo-1181715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-size: cover; background-position: center;">
+          <div class="absolute inset-0 bg-black opacity-30"></div>
+          <div class="relative z-10 text-center px-4 max-w-3xl">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">Find Your Perfect Match</h1>
+            <h2 class="text-4xl md:text-6xl font-bold mb-6 text-pink-400">Dating</h2>
+            <p class="text-base md:text-lg text-gray-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+              Connect with like-minded individuals and discover meaningful relationships.
+              Explore our platform designed to create authentic connections in a safe, engaging
+              environment full of exciting interactions and dating experiences.
+            </p>
+            <button class="px-8 py-3 text-white bg-pink-500 rounded-full hover:bg-pink-600 transition-colors font-medium">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Explore the innovative features that make our dating platform stand out.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div class="rounded-2xl overflow-hidden">
+            <div class="bg-orange-100 h-48 flex items-center justify-center">
+              <svg class="w-16 h-16 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15a7.488 7.488 0 00-5.982 3.725m11.963 0a9 9 0 10-11.925 0m7.875-6a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0z"></path>
+              </svg>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="text-lg font-semibold mb-3 leading-tight">Share Your Story with Interactive Profiles</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">Showcase your personality with visually rich profiles that capture your interests and experiences through photos and stories.</p>
+            </div>
+          </div>
+
+          <div class="rounded-2xl overflow-hidden">
+            <div class="bg-green-100 h-48 flex items-center justify-center">
+              <svg class="w-16 h-16 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19.5L1 12m0 0l8-7.5M1 12h15a7 7 0 010 14H4"></path>
+              </svg>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="text-lg font-semibold mb-3 leading-tight">Discover Deeper Connections with our Smart Matching Algorithm</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">Our intelligent algorithm analyzes your preferences and behavior to suggest compatible matches, leading to more meaningful connections.</p>
+            </div>
+          </div>
+
+          <div class="rounded-2xl overflow-hidden">
+            <div class="bg-orange-100 h-48 flex items-center justify-center">
+              <svg class="w-16 h-16 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path>
+              </svg>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="text-lg font-semibold mb-3 leading-tight">Break the Ice with Fun Conversation Starters</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">Start conversations effortlessly with our curated collection of engaging prompts and icebreakers, designed to spark genuine interactions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-100 py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+          <a href="#" class="text-gray-600 hover:text-gray-900 text-sm">Terms of Service</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900 text-sm">Privacy Policy</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900 text-sm">Contact Us</a>
+        </div>
+        <div class="text-center text-sm text-gray-500">@2024 Connect. All rights reserved</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
