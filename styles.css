@@ -150,6 +150,8 @@ body {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .overflow-hidden {
@@ -245,6 +247,7 @@ body {
 
 .text-gray-700 {
   color: #374151;
+  font-size: 200px;
 }
 
 .text-gray-900 {
@@ -320,7 +323,16 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: block;
+}
+
+nav a {
+	margin-right: 20px;
+	
+}
+
+nav {
+	padding-left: 500px;
 }
 
 .opacity-30 {
